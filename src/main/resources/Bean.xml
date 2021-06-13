@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="SingletonBean" class="cn.urovo.blog.lesson2.SingletonBean" scope="singleton"></bean>
+    <!-- 或者 -->
+    <!--  <bean id="SingletonBean" class="com.spring.demo.SingletonBean" ></bean> -->
+</beans>
